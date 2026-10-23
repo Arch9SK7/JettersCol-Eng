@@ -1,6 +1,6 @@
 # JettersCol-Eng
 
-English fan translation of **Bomber Man Jetters - Game Collection** (GBA, Japan, `BOMJ`).
+English fan translation of **BomberMan Jetters - Game Collection** (GBA, Japan, `BOMJ`).
 
 I found 2 ingame debug menus of sorts which are not documented anywhere on the internet that i can find.
 ROM ADDRESS - 08024EA0 (file offset 0x24EA0)
@@ -16,7 +16,7 @@ THIS IS A WIP AND A NEW HEADACHE TO WORK ON. Give time. I may or may not eventua
 
 ## Prerequisites
 * **Python 3 + Pillow:** runs the dump and build tools. Install Pillow with `pip install pillow`.
-* **A clean ROM:** an untouched `Bomber Man Jetters - Game Collection (Japan).gba`
+* **A clean ROM:** an untouched `BomberMan Jetters - Game Collection (Japan).gba`
   (SHA-1 `55a6ef08c00e5c02b256424495d9f90f6924cb7a`) in the project root. Any file name works,
   because the tools find it by its checksum.
 * **Windows:** `tools\armips.exe` and `tools\flips.exe` are included for the build. On macOS/Linux, use
